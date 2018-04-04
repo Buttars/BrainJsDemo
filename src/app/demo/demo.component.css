@@ -1,0 +1,9 @@
+:host {
+  font-family: "Roboto", helvetica neue;
+}
+
+.background {
+  padding: 100px;
+  color: white;
+  font-size: 36px;
+}

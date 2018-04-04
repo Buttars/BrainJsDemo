@@ -1,0 +1,6 @@
+<!-- <input type="color" value="#ff0000" #input (change)="changeColor($event)" /> -->
+<input [value]="color" [style.background]="color" [colorPicker]="color" (colorPickerChange)="color=$event;colorChange($event)" #input />
+
+<div [style.background]="color" class="background" #example>
+  Example Text
+</div>
